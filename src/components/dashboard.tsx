@@ -115,7 +115,7 @@ export default function Dashboard() {
             Sentiment<span className="text-cobalt">.Analysis</span>
           </span>
           <a
-            href="https://github.com/linson13/twitter-sentiment-analysis"
+            href="https://github.com/linson13/twitter-sentiment-dashboard"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 text-sm font-medium text-ink-soft hover:text-cobalt transition-colors"
@@ -444,7 +444,7 @@ export default function Dashboard() {
             steps in the repo.
           </p>
           <a
-            href="https://github.com/linson13/twitter-sentiment-analysis"
+            href="https://github.com/linson13/twitter-sentiment-dashboard"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-1.5 text-sm font-medium text-cobalt hover:text-cobalt-dark transition-colors"
