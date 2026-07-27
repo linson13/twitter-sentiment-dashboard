@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "total": 67480,
+    "by_label": {
+      "positive": 28582,
+      "neutral": 11117,
+      "negative": 27781
+    },
+    "by_source": {
+      "laxmimerit_twitter30k": 30000,
+      "tweet_sentiment_extraction": 27480,
+      "nltk_twitter_samples": 10000
+    }
+  },
+  "metrics": {
+    "accuracy": 0.652,
+    "test_size": 13496,
+    "per_class": {
+      "negative": {
+        "precision": 0.665,
+        "recall": 0.727,
+        "f1": 0.694,
+        "support": 5556
+      },
+      "neutral": {
+        "precision": 0.471,
+        "recall": 0.17,
+        "f1": 0.25,
+        "support": 2223
+      },
+      "positive": {
+        "precision": 0.663,
+        "recall": 0.767,
+        "f1": 0.711,
+        "support": 5717
+      }
+    },
+    "classes": [
+      "negative",
+      "neutral",
+      "positive"
+    ]
+  },
+  "confusion_matrix": {
+    "labels": [
+      "negative",
+      "neutral",
+      "positive"
+    ],
+    "matrix": [
+      [
+        4039,
+        226,
+        1291
+      ],
+      [
+        906,
+        379,
+        938
+      ],
+      [
+        1133,
+        200,
+        4384
+      ]
+    ]
+  },
+  "top_words": {
+    "negative": [
+      {
+        "word": "sad",
+        "score": 5.27
+      },
+      {
+        "word": "miss",
+        "score": 4.548
+      },
+      {
+        "word": "sick",
+        "score": 4.135
+      },
+      {
+        "word": "suck",
+        "score": 3.585
+      },
+      {
+        "word": "sorry",
+        "score": 3.544
+      },
+      {
+        "word": "hate",
+        "score": 3.506
+      },
+      {
+        "word": "hurt",
+        "score": 3.201
+      },
+      {
+        "word": "poor",
+        "score": 3.074
+      },
+      {
+        "word": "sadly",
+        "score": 2.908
+      },
+      {
+        "word": "bad",
+        "score": 2.832
+      },
+      {
+        "word": "fail",
+        "score": 2.793
+      },
+      {
+        "word": "damn",
+        "score": 2.768
+      }
+    ],
+    "neutral": [
+      {
+        "word": "it",
+        "score": 2.731
+      },
+      {
+        "word": "don",
+        "score": 2.551
+      },
+      {
+        "word": "ll",
+        "score": 2.323
+      },
+      {
+        "word": "he",
+        "score": 2.212
+      },
+      {
+        "word": "how",
+        "score": 2.195
+      },
+      {
+        "word": "can",
+        "score": 2.146
+      },
+      {
+        "word": "didn",
+        "score": 2.145
+      },
+      {
+        "word": "wasn",
+        "score": 2.052
+      },
+      {
+        "word": "doesn",
+        "score": 1.993
+      },
+      {
+        "word": "that",
+        "score": 1.904
+      },
+      {
+        "word": "what",
+        "score": 1.901
+      },
+      {
+        "word": "won",
+        "score": 1.894
+      }
+    ],
+    "positive": [
+      {
+        "word": "thank",
+        "score": 4.768
+      },
+      {
+        "word": "great",
+        "score": 3.709
+      },
+      {
+        "word": "love",
+        "score": 3.559
+      },
+      {
+        "word": "happy",
+        "score": 3.536
+      },
+      {
+        "word": "nice",
+        "score": 3.341
+      },
+      {
+        "word": "awesome",
+        "score": 3.332
+      },
+      {
+        "word": "enjoy",
+        "score": 2.94
+      },
+      {
+        "word": "glad",
+        "score": 2.84
+      },
+      {
+        "word": "good",
+        "score": 2.809
+      },
+      {
+        "word": "lovely",
+        "score": 2.717
+      },
+      {
+        "word": "amazing",
+        "score": 2.71
+      },
+      {
+        "word": "welcome",
+        "score": 2.588
+      }
+    ]
+  },
+  "sample_predictions": [
+    {
+      "text": "The dj`s and partypeople were great again at CC. Kicking  Next one June 7",
+      "true_label": "positive",
+      "predicted_label": "positive",
+      "confidence": 0.694,
+      "correct": true
+    },
+    {
+      "text": "I`d like to thank my normally only randomly working internet for actually staying up from the moment I saw the tweet until now.",
+      "true_label": "positive",
+      "predicted_label": "positive",
+      "confidence": 0.559,
+      "correct": true
+    },
+    {
+      "text": "Immature love says I love you because I need you. Mature love says I need you because I love you..  Gandhi :)",
+      "true_label": "positive",
+      "predicted_label": "positive",
+      "confidence": 0.881,
+      "correct": true
+    },
+    {
+      "text": "ugh i hate when i need to google something and then i forget what it was i am sure it was important",
+      "true_label": "negative",
+      "predicted_label": "negative",
+      "confidence": 0.918,
+      "correct": true
+    },
+    {
+      "text": "ange1pie i kept thinking yesterday was friday too most thisappointed when i realised it was not",
+      "true_label": "negative",
+      "predicted_label": "negative",
+      "confidence": 0.839,
+      "correct": true
+    },
+    {
+      "text": "at work it is fridayy 3 roommate moves in today boo",
+      "true_label": "negative",
+      "predicted_label": "negative",
+      "confidence": 0.651,
+      "correct": true
+    },
+    {
+      "text": " I`ll keep that in mind when he gets tonked for 40 off his 4 overs.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "confidence": 0.591,
+      "correct": true
+    },
+    {
+      "text": "_writes i`ve been wanting it for 2 years LOL...that and a HD camcorder",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "confidence": 0.654,
+      "correct": true
+    },
+    {
+      "text": " Or even listen to Susan`s green policies",
+      "true_label": "neutral",
+      "predicted_label": "positive",
+      "confidence": 0.497,
+      "correct": false
+    },
+    {
+      "text": "Can`t sleep but is happy that the Fugees are keeping him company",
+      "true_label": "neutral",
+      "predicted_label": "negative",
+      "confidence": 0.553,
+      "correct": false
+    },
+    {
+      "text": " I can only promise about 150 or so.",
+      "true_label": "neutral",
+      "predicted_label": "positive",
+      "confidence": 0.55,
+      "correct": false
+    }
+  ]
+}
